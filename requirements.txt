@@ -1,6 +1,7 @@
 streamlit
-whisper
 transformers
 torch
-fpdf
 pydub
+imageio-ffmpeg
+fpdf
+whisper
