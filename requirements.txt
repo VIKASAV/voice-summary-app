@@ -1,0 +1,6 @@
+streamlit
+whisper
+transformers
+torch
+fpdf
+pydub
