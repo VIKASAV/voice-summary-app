@@ -4,6 +4,8 @@ import whisper
 import streamlit as st
 import os
 from pydub import AudioSegment
+from pydub.utils import which
+AudioSegment.converter = which("ffmpeg")
 from transformers import pipeline
 from fpdf import FPDF
 from datetime import datetime, timedelta
